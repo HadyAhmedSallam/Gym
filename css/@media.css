@@ -59,6 +59,7 @@
 /* asdsadsad */
 .img_under_header{
     display: block;
+    margin-left: 20px;
 }
 .img_under_header img{
     margin-top: 70px;
@@ -87,7 +88,7 @@
 }
 /* asdsadsa */
 .book_btn{
-    margin: 120px;
+    margin: 140px;
 }
 .state_of_the_art{
     top: -470px;
@@ -159,6 +160,7 @@
 .carts_3{
     display: block;
     margin-top: 60px;
+    margin-left: 30px;
 }
 .cart{
     width: 286px;
@@ -176,7 +178,7 @@
 }
 .btn_last1{
     margin-top: 18px;
-    margin-left: 43px;
+    margin-left: 60px;
 }
 .sec4{
     max-width: 100%;
