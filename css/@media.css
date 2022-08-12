@@ -81,9 +81,9 @@
 }
 .img_under_header span{
     width: 350px;
-    margin-top: -70px;
+    margin-top: -75px;
     margin-left: 40px;
-    z-index: 150;
+    z-index: 1500;
 }
 /* asdsadsa */
 .book_btn{
