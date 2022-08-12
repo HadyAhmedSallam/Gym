@@ -18,9 +18,7 @@
 .line_2{
     width: 100%;
 }
-.btn_last1{
-    z-index: 999;
-}
+
 .last_line{
     z-index: 1;
     width: 100%;
@@ -162,7 +160,7 @@
 }
 .cart{
     width: 286px;
-    margin-left: 65px;
+    margin-left: 73px;
     margin-top: 50px;
 }
 .cart .ppol{
@@ -176,7 +174,8 @@
 }
 .btn_last1{
     margin-top: 18px;
-    margin-left: 43px;
+    margin-left: 55px;
+    z-index: 999;
 }
 .sec4{
     max-width: 100%;
