@@ -1,7 +1,7 @@
 /* for SM */
 @media(max-width:768px){
 .our_clients_formd{
-    max-width: 425px;
+    width: 425px;
     height: 292.54px;
     background: #5804fa;
     position: relative;
