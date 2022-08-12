@@ -391,7 +391,8 @@ body{
 .btn_last1{
  z-index: 1;
     margin-top: 40px;
-    margin-left: 450px;
+    position: relative;
+    left: 600px;
     border: 0;
     padding: 10px 40px; 
     font-family: "Racing Sans One", Sans-serif;
