@@ -1,0 +1,468 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden !important;
+    background-color: #1b252f;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.header h4{ 
+    padding-top: 185px;
+    color: #ffde01;
+    font-size: 30px;
+    font-family: "Helvetica", Sans-serif;
+    font-weight: 300;
+    font-style: oblique;
+}
+.header h1{
+    color: #ffffff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 90px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1em;
+    padding-top: 18px;
+    letter-spacing: 10px;
+}
+.header button{
+    width: 170px;
+    height: 45px;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    fill: #5804fa;
+    color: #5804fa;
+    background-color: #ffde01;
+    border: none;
+    margin-top: 70px;
+}
+.header button:hover{
+    background-color: #5804fa;
+    color: #ffde01;
+}
+.under_header{
+    width: 100%;
+
+}
+.sec_under_herder{
+    margin-top: -40px;
+    width: 100%;
+    height: 1240px;
+    background-color: #1b252f;
+
+}
+.firstin_sec1 h2{ 
+    color: #ffde01;
+    padding-top: 180px;
+    padding-left: 85px;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+.firstin_sec1 h1{ 
+    color: #ffffff;
+    position: relative;
+    font-family: "Racing Sans One", Sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 0.8em;
+    padding-left: 85px;
+}
+.img_under_header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.img_under_header div{
+    width: 369.98px;
+    height: 323px;
+    overflow: hidden;
+    box-shadow: black 0 0 20px;
+}
+.img_under_header img{
+    width: 369.98px;
+    height: 323px;
+    transform: scale(1);
+    transition: transform 0.6s ease-in-out,
+    filter 0.6s ease-in-out,
+    -webkit-filter 0.6s ease-in-out;
+}
+.img_under_header div:hover img{ 
+    transform: scale(1.1);
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.7);
+}
+.img_under_header button{
+    width: 369.98px;
+    height: 60px;
+    position: absolute;
+    margin-top: 263px;
+    margin-left: -370px;
+    min-height: 60px;
+    text-align: center;
+    background-color: #5804fa;
+    border: none;
+}
+.img_under_header button h2{
+    font-family: "Racing Sans One", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.img_under_header span{
+    width: 369.98px;
+    height: 5px;
+    position: absolute;
+    margin-top: 318px;
+    margin-left: -370px;
+    background-color: #ffde01;
+}
+.book_btn{
+    width: 170px;
+    height: 45px;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    fill: #5804fa;
+    color: #5804fa;
+    background-color: #ffde01;
+    border: none;
+    margin: 80px 540px;
+}
+.book_btn:hover{
+    background-color: #5804fa;
+    color: #ffde01;
+}
+.line_2{
+    width: 100%;
+}
+.sec2_under_herder{
+    width: 100%;
+    height: 650px;
+    background-color: #5804fa;
+    margin-top: -10px;
+}
+.sec2_fir_img{
+    width: 340px;
+    height: 330px;
+    margin: 40px 30px;
+}
+.sec2_sec_img{
+    width: 355px;
+    height: 340px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -240px;
+}
+.state_of_the_art{
+    position: relative;
+    top: -340px;
+    left: 535px;
+}
+.state_of_the_art h4{
+    font-family: "Helvetica", Sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-style: oblique;
+    color: #ffffff;
+}
+.state_of_the_art h2{
+    font-family: "Racing Sans One", Sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 0.8em;
+    color: #ffffff;
+    margin-top: -10px;
+}
+.all_main{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    position: relative;
+    left: 590px; 
+    top: -200px; 
+}
+.all_main img{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin-left: -20px;
+}
+.all_main h3{
+    color: #ffffff;
+    font-family: "Racing Sans One", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.all_main p{
+    color: #ffffff;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: oblique;
+    padding-top: 10px;
+}
+.last-img{
+    margin-top: -450px;    
+}
+.bg-img{
+    width: 100%;
+    height: 70%;
+    margin-top: -150px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
+.bg-img h4{
+    color: #ffde01;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-style: oblique;
+    text-align: center;
+    padding-top: 200px;
+}
+.bg-img h2{
+    font-family: "Racing Sans One", Sans-serif;
+    font-size: 65px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 0.8em;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+}    
+.our_clients_formd{
+    width: 900px;
+    height: 292.54px;
+    background: #5804fa;
+    position: relative;
+    margin-top: 330px;
+    margin-left: calc(50% - 450px);
+    text-align: center;
+}
+.our_clients_formd i{
+    width: 60px;
+    height: 60px;
+    background-color:#ffde01 ;
+    position: relative;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    align-items: center;
+    margin-top: 60px;
+    padding: 25px 0;
+}
+.our_clients_formd h4{
+    color: #ffde01;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-style: oblique;
+    margin-top: 20px;
+}
+.our_clients_formd h2{
+    color: #ffffff;
+    font-family: "Racing Sans One", Sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 0.8em;
+}
+.under_our_clients{
+    width: 100%;
+    height: 4px;
+    background-color: #ffde01;
+    margin-top: -163px;
+}
+.sec3{
+    width: 100%;        
+    height: 1000px;
+    background-color: #1b252f;
+}
+.one_3_1{
+    padding-top: 230px;
+    margin-left: 23px;
+}
+.one_3_1 h4{
+    color: #ffde01;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+.one_3_1 h2{
+    color: #ffffff;
+    font-family: "Racing Sans One", Sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 0.8em;
+    margin-top: -10px;
+}
+.one_3_1 .line_3{
+    width: 58%;
+    height: 2px;
+    background-color: #ffde01;
+    margin-top: -30px;
+    margin-left: 480px;
+}
+/* start carts */
+.carts_3{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 100px;
+}
+.cart{
+    overflow: hidden;
+    transform: scale(1);
+}
+.pic-over{
+    overflow: hidden;
+}
+.cart img{
+    transition:transform 0.6s ease-in-out,
+    -webkit-filter 0.6s ease-in-out,
+    filter 0.6s ease-in-out;
+}
+.cart:hover img{
+    transform: scale(1.2);
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.7);
+}
+.cart .ppol{
+    background-color: #5804fa;
+    text-align: center;
+    padding: 1px;
+    color: #ffde01;
+    transition: color 0.6s ease-in-out,
+    background-color 0.6s ease-in-out;
+}
+.cart:hover .ppol{
+    background-color: #ffde01;
+    color: #5804fa;
+}
+
+.cart h2{    
+    font-family: "Racing Sans One", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.cart p{
+    font-family: "Helvetica", Sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-style: oblique;
+    position: relative;
+    margin-top: -10px;
+}
+.cart_2{
+    margin-top: 35px;
+}
+.cart_4{
+    margin-top: 35px;
+}
+.btn_last1{
+ z-index: 1;
+    margin-top: 40px;
+    margin-left: 450px;
+    border: 0;
+    padding: 10px 40px; 
+    font-family: "Racing Sans One", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    fill: #5804fa;
+    color: #5804fa;
+    background-color: #ffde01;
+    transition: color 0.6s ease-in-out,
+    background-color 0.6s ease-in-out;
+}
+.btn_last1:hover{
+    color: #ffde01;
+    background-color: #5804fa;
+}
+.last_line{
+    height: 100px;
+    margin-top: -42px;
+}
+.sec4{
+    width: 100%;
+    height: 650px;
+    background-color: #5804fa;
+    margin-top: -28px;
+}
+.sec4 div{
+    padding-top: 188px;
+    margin-left: 65px;
+}
+.sec4 div h4{
+    color: #ffde01;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+.sec4 div h2{
+    color: #ffffff;
+    font-family: "Racing Sans One", Sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 0.8em;
+}
+.sec4 div button{
+    font-family: "Racing Sans One", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    fill: #5804fa;
+    color: #5804fa;
+    background-color: #ffde01;
+    border: none;
+    padding: 10px 50px;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 20%);
+    margin-top: 60px;
+}
+.cta-2{
+    position: absolute;
+    margin-top: -377px;
+    margin-left: 400px;
+}
+.cta-1{
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 590px;
+    z-index: 1;
+}
+.sec4_last_line{
+    width: 100%;
+    transform: rotate(180deg);
+    margin-top: 48px;
+}
